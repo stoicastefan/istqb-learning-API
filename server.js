@@ -9,7 +9,7 @@ const app = express()
 app.use(express.json())
 app.use(cors());
 
-mongoose.connect("mongodb+srv://stoicastefan14:123@cluster0.zg3vc9x.mongodb.net/istqb_platform?retryWrites=true&w=majority").then(console.log("connected"))
+mongoose.connect("").then(console.log("connected"))
 
 
 app.get('/users', async (req, res) => {
